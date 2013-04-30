@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='osgi.bundle' id='tutorial.bundle' version='1.0.0.201304301136'>
+  <artifact classifier='osgi.bundle' id='tutorial.bundle' version='1.0.0.201304301400'>
     <properties size='5'>
-      <property name='artifact.size' value='7099'/>
-      <property name='download.size' value='7099'/>
+      <property name='artifact.size' value='7186'/>
+      <property name='download.size' value='7186'/>
       <property name='maven-groupId' value='tutorial'/>
       <property name='maven-artifactId' value='tutorial.bundle'/>
       <property name='maven-version' value='1.0.0.qualifier'/>

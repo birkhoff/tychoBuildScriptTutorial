@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'eclipse'
+apply plugin: 'maven'
+
+
+
+repositories {
+    
+	maven {
+		name "jira client"
+		url "https://m2proxy.atlassian.com/repository/public"
+	}
+
+}
+
+dependencies {
+
+	compile 'org.spockframework:spock-core:0.7-groovy-2.0'
+	
+}

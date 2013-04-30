@@ -1,7 +1,10 @@
 Manifest-Version: 1.0
 Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy
-Bundle-Version: 1.0.0.201304301136
+Bundle-ClassPath: .,lib/dependencies/spock-core-0.7-groovy-2.0.jar,lib
+ /dependencies/junit-dep-4.10.jar,lib/dependencies/hamcrest-core-1.3.j
+ ar,lib/dependencies/groovy-all-2.0.5.jar
+Bundle-Version: 1.0.0.201304301400
 Bundle-Name: Bundle
 Bundle-Activator: tutorial.bundle.Activator
 Bundle-ManifestVersion: 2
