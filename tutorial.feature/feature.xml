@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="tutorial.feature"
+      label="Feature"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.stups.uni-duesseldorf.de/w/STUPS_Group">
+      This is a simple example how to use the tycho_build.gradle script
+   </description>
+
+   <copyright url="http://www.stups.uni-duesseldorf.de/w/STUPS_Group">
+      This software comes with no warranty at all
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="tutorial.bundle"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

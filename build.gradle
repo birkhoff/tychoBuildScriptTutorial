@@ -1,0 +1,31 @@
+project.ext {
+
+	targetRepositories = ["http://download.eclipse.org/releases/indigo/"]	
+
+	groupID = "tutorial"
+
+	// 	script properties:
+	//
+	//	dependencyFolder = "lib/yourOwnSpecifiedFolder"											// folder where your dependencies will be downloaded by default lib/dependencies
+	//	excludeFromTychoBuild = ['nameOfProjectToExclude', 'nameOfOtherProjectToExclude']		// Projects defined here will be excluded from the tycho build
+	//	excludeFromClassPath = [ 'noChangesinDotClassPathFile.projects' ]						// Libraries of these projects will not be added automatically to .classpath file
+	//	excludeManifestClassPathDelete = ['noCHangesInMFFile.projects]							// Libraries of these projects will not be added automatically to Manifest file
+}
+
+apply from: 'tycho_build.gradle'
+
+
+/*************************************************************************************
+ 	
+	gradle shell tasks:
+
+	gradle collectDependencies 		-	downloads your dependencies from your gradle script in the lib/dependencies folder
+	gradle setClassPath				-	downloads your dependencies and also adds them to your classpath and Manifet Files
+	
+	gradle tycho					-	triggers a tycho build
+	
+	gradle completeInstall			- 	does all the above
+
+
+
+**************************************************************************************/

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Fragment-Host: tutorial.bundle;bundle-version="1.0.0"
+Bundle-Version: 1.0.0.201304301136
+Bundle-Name: Tests
+Bundle-ManifestVersion: 2
+Import-Package: org.junit
+Bundle-SymbolicName: tutorial.tests
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

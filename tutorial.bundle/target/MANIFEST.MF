@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 1.0.0.201304301136
+Bundle-Name: Bundle
+Bundle-Activator: tutorial.bundle.Activator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: tutorial.bundle; singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
